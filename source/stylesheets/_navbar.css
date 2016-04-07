@@ -3,7 +3,7 @@ a {
 }
 
 a:hover {
-  color: lightgrey;
+  color: blue;
 }
 .parent2 {
   top:15px;
@@ -22,7 +22,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 .test1 {
   width:60%;
   height:60%;
-  background-color:blue;
+  background-color:dimGray;
   border-radius:50%;
   position:absolute;
   color:white;
@@ -37,7 +37,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 .test2 {
   width:60%;
   height:60%;
-  background-color:blue;
+  background-color:dimGray;
   border-radius:50%;
   position:absolute;
   color:white;
@@ -51,7 +51,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 .test3 {
   width:60%;
   height:60%;
-  background-color:blue;
+  background-color:dimGray;
   border-radius:50%;
   position:absolute;
   color:white;
@@ -64,7 +64,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
   .test4 {
   width:60%;
   height:60%;
-  background-color:blue;
+  background-color:dimGray;
   border-radius:50%;
   position:absolute;
   color:white;
@@ -79,7 +79,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
   left:15px;
   width:100px;
   height:100px;
-  background:#FF0078;
+  background:darkSlateGray;
   border-radius:50%;
   position:absolute;
   z-index:21;
