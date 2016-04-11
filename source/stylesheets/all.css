@@ -22,7 +22,7 @@ a:hover {
 
 .logo {
   font-family: 'Lobster', cursive;
-  color: #65F7BF;
+  color: #91A7D0;
   font-weight: 800;
   top:15px;
   right: 20px;
@@ -93,7 +93,7 @@ a:hover {
   left:15px;
   width:100px;
   height:100px;
-  background:#B4DF5B;
+  background:#F6CAC9;
   border-radius:50%;
   position:absolute;
   z-index:21;
@@ -120,62 +120,68 @@ a:hover {
     vertical-align: middle;
 }
 
+#banner {
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d172e9f03d0455ffa72c0ac6a30727e8);
+}
+
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   font-size: 90px;
-  background: -webkit-linear-gradient(#65F7BF, #B4DF5B);
+  background: -webkit-linear-gradient(#91A7D0, #F6CAC9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-}
-
-.h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  font-size: 50px;
-  color: #B4DF5B !important;
-  margin: 40px;
-}
-
-p {
-  font-weight: 300;
-  font-size: 18px;
-  margin-bottom: 60px;
 }
 
 .about {
   margin: 90px;
   text-align: center;
 }
+.h3 {
+  font-family: 'Open Sans', sans-serif ;
+  font-weight: 800 ;
+  font-size: 50px ;
+  color: #F6CAC9 ;
+  margin: 40px ;
+}
+
+p {
+  text-align: justify !important;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+
 
 #follow {
+  white-space: nowrap;
   font-weight: 800;
-  border: 1px solid #65F7BF;
+  border: 1px solid #91A7D0;
   text-decoration: none;
   border-radius: 2px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 30px;
   padding-left: 30px;
-  color: #65F7BF;
+  color: #91A7D0;
   font-size: 20px;
 }
 
 #follow:hover {
-  box-shadow: 2px 2px 2px #65F7BF;
+  box-shadow: 2px 2px 2px #91A7D0;
 }
 
 .footer {
   display: table;
   height: 240px;
   width: 100%;
-   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4df5b+0,65f7bf+100 */
-  background: rgb(180,223,91); /* Old browsers */
-  background: -moz-linear-gradient(top, rgba(180,223,91,1) 0%, rgba(101,247,191,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(180,223,91,1) 0%,rgba(101,247,191,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(180,223,91,1) 0%,rgba(101,247,191,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4df5b', endColorstr='#65f7bf',GradientType=0 ); /* IE6-9 */
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#F6CAC9+0,65f7bf+100 */
+  background: #91A7D0; /* Old browsers */
+  background: -moz-linear-gradient(top,#F6CAC9 0%, #91A7D0 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #F6CAC9 0%,#91A7D0 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #F6CAC9 0%,#91A7D0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F6CAC9', endColorstr='#91A7D0',GradientType=0 ); /* IE6-9 */
 }
 
 .footer-content {
@@ -190,3 +196,167 @@ p {
   font-weight: 800;
   margin-bottom: 0
  }
+
+/*contact*/
+
+.contact {
+  padding-top: 100px;
+  background: rgb(180,223,91); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(180,223,91,1) 0%, rgba(101,247,191,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(180,223,91,1) 0%,rgba(101,247,191,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(180,223,91,1) 0%,rgba(101,247,191,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F6CAC9', endColorstr='#91A7D0',GradientType=0 ); /* IE6-9 */
+}
+
+
+#contact-form {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+textarea,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: none;
+  font-weight: 700;
+  font-family: 'Lato', georgia;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  max-width: 90%;
+  padding: 1rem;
+  border: 2px dashed rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  cursor: text;
+}
+
+textarea {
+  text-align: left;
+  /* overflow:hidden; */
+
+  resize: none;
+  width: 90%;
+  border-color: rgba(255, 255, 255, 0)
+}
+
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px dashed rgba(255, 255, 255, 1);
+}
+
+textarea:focus:required:valid {
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+textarea:required:valid {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+input {
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+input:required,
+textarea:required {
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+input:focus {
+  border-bottom: 2px dashed rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+input:required:valid {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+input:required:invalid {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.expanding {
+  vertical-align: top;
+}
+
+.send-icn {
+  fill: rgba(255, 255, 255, 1)
+}
+
+.send-icn:hover {
+  fill: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+button {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  background: none;
+  border: none;
+  outline: none;
+  margin: 2vmax;
+}
+
+button:hover small {
+  opacity: 1;
+}
+
+small {
+  display: block;
+  opacity: 0;
+}
+
+.website {
+  opacity: 1;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-top: 7%;
+
+}
+
+.website a {
+  color: white;
+}
